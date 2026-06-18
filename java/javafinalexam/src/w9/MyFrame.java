@@ -19,7 +19,7 @@ public class MyFrame extends JFrame {
 
     // main(): 프로그램 실행 시작점입니다.
     public static void main(String[] args) {
-        new MyFrame();
+        new MyFrame1();
     }
 
 }

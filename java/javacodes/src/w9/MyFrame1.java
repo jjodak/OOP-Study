@@ -6,21 +6,13 @@
 
 package w9;
 
-import java.awt.Color;
-import java.awt.FlowLayout;
+import java.awt.*;
+import javax.swing.*;
 
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
-
-// 클래스 MyFrame: 수업 실습 예제입니다. 기본 JFrame 창을 만드는 예제입니다.
-public class MyFrame extends JFrame {
-    // MyFrame(): 객체가 생성될 때 초기 상태와 화면 구성을 설정합니다.
-    public MyFrame() {
+// 클래스 MyFrame: Swing JFrame과 배치 관리자 실습 코드
+public class MyFrame1 extends JFrame {
+    // MyFrame(): 객체가 생성될 때 초기 상태와 화면 구성을 설정
+    public MyFrame1() {
         setTitle("Container & Component");
         setSize(500, 400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -61,6 +53,6 @@ public class MyFrame extends JFrame {
 
     // main(): 프로그램 실행 시작점입니다.
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(MyFrame::new);
+        new MyFrame1();
     }
 }
